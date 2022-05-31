@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HeadPhones</title>
+
+    <!--===== css =====-->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!--===== remixicon =====-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== preload ===============-->
+    <link rel="preload" href="img/home.png" as="image">
+
+    <!--=============== shortcut icon ===============-->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+</head>
+<body>
+    
+    <!--=============== header ===============-->
+    <header class="header" id="header">
+        <nav class="navegacion max">
+            <a class="navegacion__logo" href="/" title="Inicio">
+                <img width="50" height="50" class="navegacion__logoImg" src="img/logo.png" alt="logo">
+            </a>
+
+            <div class="navegacion__contenido">
+                <ul class="navegacion__lista">
+                    <li  class="navegacion__item">
+                        <a class="navegacion__link active" href="#inicio">Inicio</a>
+                    </li>
+    
+                    <li  class="navegacion__item">
+                        <a class="navegacion__link" href="#especificaciones">Especificaciones</a>
+                    </li>
+    
+                    <li  class="navegacion__item">
+                        <a class="navegacion__link" href="#case">Case</a>
+                    </li>
+    
+                    <li  class="navegacion__item">
+                        <a class="navegacion__link" href="#productos">Productos</a>
+                    </li>
+                </ul>
+    
+                <div class="navegacion__close" id="close-toggle">
+                    <i class="ri-close-line ico"></i>
+                </div>
+            </div>
+
+            <div class="navegacion__toggle" id="menu-toggle">
+                <i class="ri-function-line ico"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== main ===============-->
+    <main class="max">
+        <!--=============== inicio ===============-->
+        <section class="inicio" id="inicio">
+            <div class="inicio__imagen">
+                <img width="100" height="100" class="inicio__img" src="img/home.png" alt="inicio">
+            </div>
+
+            <div class="inicio__contenido">
+                <div class="inicio__intro">
+                    <h2 class="inicio__bg titulo">Sobre el oído</h2>
+                    <h3 class="inicio__bgTexto">Latidos 3</h3>
+                </div>
+
+                <div>
+                    <h3 class="inicio__titulo">Visión general</h3>
+                    <p class="inicio__parrafo">
+                        Disfruta del galardonado sonido Beats con conexión inalámbrica
+                        libertad de escucha y un diseño elegante y aerodinámico
+                        con cómodos auriculares acolchados, brindando
+                        reproducción de primer nivel.
+                    </p>
+                    <a class="boton" href="#">
+                        <span class="inicio__icono"><i class="ri-shopping-bag-line"></i></span>
+                        <span class="inicio__add">Agregar</span>
+                        <span class="inicio__precio">$299</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== imagenes ===============-->
+        <section class="imagenes">
+            <img width="100" height="100" class="imagen__img" src="img/sponsor1.png" alt="icono">
+            <img width="100" height="100" class="imagen__img" src="img/sponsor2.png" alt="icono">
+            <img width="100" height="100" class="imagen__img" src="img/sponsor3.png" alt="icono">
+            <img width="100" height="100" class="imagen__img" src="img/sponsor4.png" alt="icono">
+        </section>
+
+        <!--=============== especificaciones ===============-->
+        <section class="especificaciones" id="especificaciones">
+            <h2 class="titulo-texto titulo">especificaciones</h2>
+            <div class="espeficionaciones__contenedor">
+                <div class="espeficicaciones__items">
+                    <!--=============== item ===============-->
+                    <div class="espeficicaciones__item">
+                        <span>
+                            <i class="ri-bluetooth-line ico"></i>
+                        </span>
+                        <div>
+                            <h3 class="especificaciones__titulo">Conexion</h3>
+                            <p class="especificaciones__parrafo">Bluetooth v5.2</p>
+                        </div>
+                    </div>
+
+                    <!--=============== item ===============-->
+                    <div class="espeficicaciones__item">
+                        <span>
+                            <i class="ri-battery-charge-line ico"></i>
+                        </span>
+                        <div>
+                            <h3 class="especificaciones__titulo">Bateria</h3>
+                            <p class="especificaciones__parrafo">Duration 40h</p>
+                        </div>
+                    </div>
+
+                    <!--=============== item ===============-->
+                    <div class="espeficicaciones__item">
+                        <span>
+                            <i class="ri-plug-line ico"></i>
+                        </span>
+                        <div>
+                            <h3 class="especificaciones__titulo">Cargador</h3>
+                            <p class="especificaciones__parrafo">Fast charge 4.2-AAC</p>
+                        </div>
+                    </div>
+
+                    <!--=============== item ===============-->
+                    <div class="espeficicaciones__item">
+                        <span>
+                            <i class="ri-mic-line ico"></i>
+                        </span>
+                        <div>
+                            <h3 class="especificaciones__titulo">Microfono</h3>
+                            <p class="especificaciones__parrafo">Supports Apple Siriand <br> Google</p>
+                        </div>
+                    </div>
+                </div>
+
+                <img width="100" height="100" class="especificaciones__img" src="img/specs.png" alt="especificaciones">
+            </div>
+        </section>
+
+        <!--=============== case ===============-->
+        <section class="case" id="case">
+            <h2 class="titulo-texto titulo">Estuche</h2>
+
+            <div class="case__contenedor">
+                <img width="100" height="100" class="case__img" src="img/case.png" alt="case">
+                <div class="case__datos">
+                    <h3 class="case__titulo">Estuche portatil</h3>
+                    <p class="case__parrafo">
+                        Con un cómodo y <br>
+                        Estuche adaptable para que <br>
+                        puede almacenarlo siempre que <br>
+                        quiere, y mantiene su durabilidad <br>
+                        Siempre.
+                    </p>
+                    <a class="boton" href="#">
+                        <i class="ri-information-line ico"></i>
+                        <span>Mas Informacion</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== descuento ===============-->
+        <section class="descuento">
+            <div class="decuento__contenido">   
+                <h2 class="descuento__titulo">
+                    Sumérgete en <br>
+                    tu musica
+                </h2>
+                <p>
+                    Consíguelo ahora, hasta un 50% de descuento.
+                </p>
+                <a class="boton" href="#">
+                    <i class="ri-shopping-bag-line ico"></i>
+                    <span>Comprar Ahora</span>
+                </a>
+            </div>
+
+            <img width="100" height="100" class="descuento__img" src="img/discount.png" alt="descuento">
+        </section>
+
+        <!--=============== productos ===============-->
+        <section class="productos" id="productos">
+            <h2 class="titulo-texto titulo">Elija <br> su estilo</h2>
+            <div class="productos__contenedor">
+                <!--=============== item ===============-->
+                <article class="productos__item">
+                    <img width="100" height="100" class="productos__img" src="img/product1.png" alt="producto">
+                    <div>
+                        <h3 class="productos__titulo">Negro</h3>
+                        <p class="productos__precio">$<span id="precio">249</span></p>
+                        <button class="boton" title="Agregar" id="btn-agregar">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!--=============== item ===============-->
+                <article class="productos__item">
+                    <img width="100" height="100" class="productos__img" src="img/product2.png" alt="producto">
+                    <div>
+                        <h3 class="productos__titulo">Negro y Blanco</h3>
+                        <p class="productos__precio">$<span id="precio">149</span></p>
+                        <button class="boton" title="Agregar" id="btn-agregar">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!--=============== item ===============-->
+                <article class="productos__item">
+                    <img width="100" height="100" class="productos__img" src="img/product3.png" alt="producto">
+                    <div>
+                        <h3 class="productos__titulo">Negro Noche</h3>
+                        <p class="productos__precio">$<span id="precio">119</span></p>
+                        <button class="boton" title="Agregar" id="btn-agregar">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!--=============== item ===============-->
+                <article class="productos__item">
+                    <img width="100" height="100" class="productos__img" src="img/product4.png" alt="producto">
+                    <div>
+                        <h3 class="productos__titulo">Azul</h3>
+                        <p class="productos__precio">$<span id="precio">99</span></p>
+                        <button class="boton" title="Agregar" id="btn-agregar">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!--=============== item ===============-->
+                <article class="productos__item">
+                    <img width="100" height="100" class="productos__img" src="img/product5.png" alt="producto">
+                    <div>
+                        <h3 class="productos__titulo">Gris crepuscular</h3>
+                        <p class="productos__precio">$<span id="precio">249</span></p>
+                        <button class="boton" title="Agregar" id="btn-agregar">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </div>
+                </article>
+            <div>
+        </section>
+    </main>
+
+    <!--=============== footer ===============-->
+    <footer class="footer">
+        <section class="footer__contenedor max">
+            <img width="100" height="100" class="footer__img" src="img/logo.png" alt="logo">
+            
+            <ul>
+                <h3 class="footer__titulo">Productos</h3>
+                <li><a class="footer__link"  href="#">Headphones</a></li>
+                <li><a class="footer__link"  href="#">Earphones</a></li>
+                <li><a class="footer__link"  href="#">Auriculares</a></li>
+                <li><a class="footer__link"  href="#">Accesorios</a></li>
+            </ul>
+
+            <ul>
+                <h3 class="footer__titulo">Soporte</h3>
+                <li><a class="footer__link"  href="#">Ayuda del producto</a></li>
+                <li><a class="footer__link"  href="#">Registro</a></li>
+                <li><a class="footer__link"  href="#">Actualizaciones</a></li>
+                <li><a class="footer__link"  href="#">proporciona</a></li>
+            </ul>
+
+            <div class="footer__content">
+                <form action="" class="footer__form">
+                    <input type="email" placeholder="Email" class="footer__input">
+                    <button class="boton">
+                        <i class="ri-send-plane-line ico"></i> Suscribete
+                    </button>
+                </form>
+
+                <div class="footer__social">
+                    <a title="facebook" href="https://www.facebook.com/" target="_blank" class="boton">
+                        <i class="ri-facebook-fill ico"></i>
+                    </a>
+                    <a title="instagram" href="https://www.instagram.com/" target="_blank" class="boton">
+                        <i class="ri-instagram-line ico"></i>
+                    </a>
+                    <a title="twitter" href="https://twitter.com/" target="_blank" class="boton">
+                        <i class="ri-twitter-line ico"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                <a href="https://www.youtube.com" target="_blank" class="footer__copy-link">&#169; White Code. Todos los derechos reservados</a>
+            </p>
+            
+        </section>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#inicio" class="scrollup boton" id="scroll-up">
+        <i class="ri-arrow-up-s-line ico"></i>
+    </a>
+    
+    <!--===== js =====-->
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
