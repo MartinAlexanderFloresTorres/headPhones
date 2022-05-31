@@ -55,7 +55,7 @@ const sr = ScrollReveal({
     // reset: true
 })
 
-sr.reveal(`.inicio__contenido`,{delay: 600})
+sr.reveal(`.inicio__contenido, .titulo`,{delay: 600})
 sr.reveal(`.inicio__titulo`,{delay: 700})
 sr.reveal(`.inicio__img`,{delay: 900, origin: 'top'})
 

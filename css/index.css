@@ -104,7 +104,7 @@ p {
     background-clip: text;
     text-align: center;
     line-height: 1;
-    user-select: none;
+    /* user-select: none; */
 }
 .titulo-texto {
     font-size: 70px;
